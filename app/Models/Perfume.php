@@ -15,4 +15,6 @@ class Perfume extends Model
         "type",
         "price"
     ];
+
+    public $timestamps = false;
 }
